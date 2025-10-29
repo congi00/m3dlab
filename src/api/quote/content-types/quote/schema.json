@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "quotes",
+  "info": {
+    "singularName": "quote",
+    "pluralName": "quotes",
+    "displayName": "Quotes"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "fileName": {
+      "type": "string",
+      "required": true
+    },
+    "service": {
+      "type": "enumeration",
+      "required": true,
+      "enum": [
+        "Stampa 3D",
+        "Incisione Laser",
+        "Lavorazioni CNC"
+      ]
+    },
+    "material": {
+      "type": "text",
+      "required": true
+    },
+    "finish": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "integer",
+      "required": true,
+      "default": 1
+    },
+    "quote": {
+      "type": "decimal",
+      "required": true
+    },
+    "stats": {
+      "type": "enumeration",
+      "enum": [
+        "Pending",
+        "Sent"
+      ]
+    }
+  }
+}

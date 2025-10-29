@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_shared_products_sections",
+  "info": {
+    "displayName": "Products-section"
+  },
+  "options": {},
+  "attributes": {
+    "stampa_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "incisioni_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "files",
+        "images"
+      ]
+    },
+    "lavorazioni_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "stampa_text": {
+      "type": "string"
+    },
+    "lavorazioni_text": {
+      "type": "string"
+    },
+    "incisioni_text": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

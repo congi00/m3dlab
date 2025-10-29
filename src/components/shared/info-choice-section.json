@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_shared_info_choice_sections",
+  "info": {
+    "displayName": "Info-choice-section"
+  },
+  "options": {},
+  "attributes": {
+    "bg_image_section": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "option1": {
+      "type": "text"
+    },
+    "option2": {
+      "type": "text"
+    },
+    "option3": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

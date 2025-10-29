@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_shared_footers",
+  "info": {
+    "displayName": "Footer"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "sedeOperativa": {
+      "type": "string"
+    },
+    "sedeLegale": {
+      "type": "string"
+    },
+    "pIva": {
+      "type": "string"
+    },
+    "telefono": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "linkUtili": {
+      "type": "json"
+    },
+    "linkServizi": {
+      "type": "json"
+    }
+  },
+  "config": {}
+}

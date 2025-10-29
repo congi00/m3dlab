@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "section": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.header",
+        "shared.home-preventive-section",
+        "shared.info-choice-section",
+        "shared.products-section",
+        "shared.who-section",
+        "shared.footer"
+      ]
+    }
+  }
+}

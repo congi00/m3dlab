@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_who_sections",
+  "info": {
+    "displayName": "Who-section"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

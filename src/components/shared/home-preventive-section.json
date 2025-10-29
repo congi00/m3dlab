@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_shared_home_preventive_sections",
+  "info": {
+    "displayName": "Home-preventive-section"
+  },
+  "options": {},
+  "attributes": {
+    "renderImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "secondTitle": {
+      "type": "string"
+    },
+    "secondSubtitle": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}
