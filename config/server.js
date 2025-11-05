@@ -1,7 +1,7 @@
 module.exports = ({ env }) => ({
   host: env('HOST', '0.0.0.0'),
   port: env.int('PORT', 1337),
-  url: env('PUBLIC_URL', 'https://3dmlab.up.railway.app'),
+  url: env('PUBLIC_URL', 'https://m3dlab-production.up.railway.app'),
   proxy: true,
   trustProxy: true,
   app: {
