@@ -1,11 +1,6 @@
 module.exports = [
   'strapi::errors',
-  {
-    name: 'strapi::security',
-    config: {
-      contentSecurityPolicy: false,
-    },
-  },
+  'strapi::security',
   'strapi::cors',
   'strapi::logger',
   'strapi::query',
