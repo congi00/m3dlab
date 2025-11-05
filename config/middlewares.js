@@ -13,9 +13,8 @@ module.exports = [
   'strapi::session',
   'strapi::favicon',
   'strapi::public',
-  async (ctx, next) => {
-    // 👉 forza Strapi a considerare la connessione "sicura"
-    ctx.request.secure = true;
-    await next();
+  {
+    name: 'custom::force-https',
+    config: {},
   },
 ];
