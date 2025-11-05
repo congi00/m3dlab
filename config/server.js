@@ -14,5 +14,8 @@ module.exports = ({ env }) => ({
     },
     url: '/admin',
     serveAdminPanel: true,
+    cookies: {
+      secure: false, // ✅ accetta anche connessioni non HTTPS dirette
+    },
   },
 });
