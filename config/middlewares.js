@@ -1,15 +1,18 @@
+// config/middlewares.js
 module.exports = [
   'strapi::errors',
-  'strapi::security',
+  {
+    name: 'strapi::security',
+    config: {
+      contentSecurityPolicy: false,
+    },
+  },
   'strapi::cors',
+  'strapi::poweredBy',
   'strapi::logger',
   'strapi::query',
   'strapi::body',
   'strapi::session',
   'strapi::favicon',
   'strapi::public',
-  {
-    name: 'custom::force-https',
-    config: {},
-  },
 ];
