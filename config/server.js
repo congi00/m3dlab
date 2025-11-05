@@ -18,8 +18,8 @@ module.exports = ({ env }) => ({
     serveAdminPanel: true,
     // forza i cookie admin a non richiedere HTTPS a livello container
     cookies: {
-      // false in ambiente Railway dove TLS è terminato dal proxy
       secure: false,
-    },
+      sameSite: 'lax',
+    }
   },
 });
