@@ -112,6 +112,8 @@ export interface SharedProductsSection extends Struct.ComponentSchema {
     displayName: 'Products-section';
   };
   attributes: {
+    cad_image: Schema.Attribute.Media<'images'>;
+    cad_text: Schema.Attribute.String;
     incisioni_image: Schema.Attribute.Media<'files' | 'images'>;
     incisioni_text: Schema.Attribute.String;
     lavorazioni_image: Schema.Attribute.Media<'images' | 'files'>;

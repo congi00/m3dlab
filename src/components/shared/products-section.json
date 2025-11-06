@@ -37,6 +37,16 @@
     },
     "incisioni_text": {
       "type": "string"
+    },
+    "cad_text": {
+      "type": "string"
+    },
+    "cad_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
     }
   },
   "config": {}
