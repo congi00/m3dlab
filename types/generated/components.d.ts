@@ -162,6 +162,39 @@ export interface SharedSlider extends Struct.ComponentSchema {
   };
 }
 
+export interface SharedStampaGallery extends Struct.ComponentSchema {
+  collectionName: 'components_shared_stampa_galleries';
+  info: {
+    displayName: 'stampa-gallery';
+  };
+  attributes: {
+    disegno: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios',
+      true
+    >;
+    incisione: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios',
+      true
+    >;
+    lavorazioni: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios',
+      true
+    >;
+    post: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios',
+      true
+    >;
+    scansioni: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios',
+      true
+    >;
+    stampa: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios',
+      true
+    >;
+  };
+}
+
 export interface SharedWhoSection extends Struct.ComponentSchema {
   collectionName: 'components_shared_who_sections';
   info: {
@@ -189,6 +222,7 @@ declare module '@strapi/strapi' {
       'shared.rich-text': SharedRichText;
       'shared.seo': SharedSeo;
       'shared.slider': SharedSlider;
+      'shared.stampa-gallery': SharedStampaGallery;
       'shared.who-section': SharedWhoSection;
     }
   }

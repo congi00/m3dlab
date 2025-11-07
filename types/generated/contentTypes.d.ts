@@ -559,6 +559,7 @@ export interface ApiHomepageHomepage extends Struct.SingleTypeSchema {
         'shared.products-section',
         'shared.who-section',
         'shared.footer',
+        'shared.stampa-gallery',
       ]
     >;
     updatedAt: Schema.Attribute.DateTime;
