@@ -27,6 +27,21 @@
     },
     "secondSubtitle": {
       "type": "text"
+    },
+    "en_title": {
+      "type": "string"
+    },
+    "en_subtitle": {
+      "type": "text"
+    },
+    "en_buttonText": {
+      "type": "string"
+    },
+    "en_secondTitle": {
+      "type": "string"
+    },
+    "en_secondSubtitle": {
+      "type": "text"
     }
   },
   "config": {}

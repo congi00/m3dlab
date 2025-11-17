@@ -21,6 +21,15 @@
     },
     "option3": {
       "type": "text"
+    },
+    "en_option1": {
+      "type": "text"
+    },
+    "en_option2": {
+      "type": "text"
+    },
+    "en_option3": {
+      "type": "text"
     }
   },
   "config": {}

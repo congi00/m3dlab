@@ -47,6 +47,18 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "en_stampa_text": {
+      "type": "text"
+    },
+    "en_lavorazioni_text": {
+      "type": "text"
+    },
+    "en_incisioni_text": {
+      "type": "text"
+    },
+    "en_cad_text": {
+      "type": "text"
     }
   },
   "config": {}

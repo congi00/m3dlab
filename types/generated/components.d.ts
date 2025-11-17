@@ -64,6 +64,7 @@ export interface SharedHeaderItem extends Struct.ComponentSchema {
     displayName: 'Header.item';
   };
   attributes: {
+    en_Label: Schema.Attribute.String;
     Label: Schema.Attribute.String & Schema.Attribute.Required;
     Url: Schema.Attribute.String & Schema.Attribute.Required;
   };
@@ -76,6 +77,11 @@ export interface SharedHomePreventiveSection extends Struct.ComponentSchema {
   };
   attributes: {
     buttonText: Schema.Attribute.String;
+    en_buttonText: Schema.Attribute.String;
+    en_secondSubtitle: Schema.Attribute.Text;
+    en_secondTitle: Schema.Attribute.String;
+    en_subtitle: Schema.Attribute.Text;
+    en_title: Schema.Attribute.String;
     renderImage: Schema.Attribute.Media<'images' | 'files'>;
     secondSubtitle: Schema.Attribute.Text;
     secondTitle: Schema.Attribute.String;
@@ -91,6 +97,9 @@ export interface SharedInfoChoiceSection extends Struct.ComponentSchema {
   };
   attributes: {
     bg_image_section: Schema.Attribute.Media<'images' | 'files'>;
+    en_option1: Schema.Attribute.Text;
+    en_option2: Schema.Attribute.Text;
+    en_option3: Schema.Attribute.Text;
     option1: Schema.Attribute.Text;
     option2: Schema.Attribute.Text;
     option3: Schema.Attribute.Text;
@@ -114,6 +123,10 @@ export interface SharedProductsSection extends Struct.ComponentSchema {
   attributes: {
     cad_image: Schema.Attribute.Media<'images'>;
     cad_text: Schema.Attribute.String;
+    en_cad_text: Schema.Attribute.Text;
+    en_incisioni_text: Schema.Attribute.Text;
+    en_lavorazioni_text: Schema.Attribute.Text;
+    en_stampa_text: Schema.Attribute.Text;
     incisioni_image: Schema.Attribute.Media<'files' | 'images'>;
     incisioni_text: Schema.Attribute.String;
     lavorazioni_image: Schema.Attribute.Media<'images' | 'files'>;
@@ -202,6 +215,8 @@ export interface SharedWhoSection extends Struct.ComponentSchema {
   };
   attributes: {
     content: Schema.Attribute.Text;
+    en_content: Schema.Attribute.Text;
+    en_title: Schema.Attribute.String;
     image: Schema.Attribute.Media<'images'>;
     title: Schema.Attribute.String;
   };

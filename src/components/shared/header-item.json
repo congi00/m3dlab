@@ -12,6 +12,9 @@
     "Url": {
       "type": "string",
       "required": true
+    },
+    "en_Label": {
+      "type": "string"
     }
   },
   "config": {}
