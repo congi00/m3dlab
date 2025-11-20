@@ -589,6 +589,7 @@ export interface ApiQuoteQuote extends Struct.CollectionTypeSchema {
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::quote.quote'> &
       Schema.Attribute.Private;
     material: Schema.Attribute.Text & Schema.Attribute.Required;
+    phone: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
     quantity: Schema.Attribute.Integer &
       Schema.Attribute.Required &

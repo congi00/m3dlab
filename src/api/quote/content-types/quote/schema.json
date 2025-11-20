@@ -50,6 +50,9 @@
         "Pending",
         "Sent"
       ]
+    },
+    "phone": {
+      "type": "string"
     }
   }
 }
