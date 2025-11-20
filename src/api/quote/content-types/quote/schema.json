@@ -57,6 +57,16 @@
     },
     "color": {
       "type": "string"
+    },
+    "attachments": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }
